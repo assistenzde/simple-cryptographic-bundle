@@ -6,7 +6,7 @@
 [![PHP ≥v7.4](https://img.shields.io/badge/PHP-%E2%89%A57%2E4-0044aa.svg)](https://www.php.net/manual/en/migration72.new-features.php)
 [![Symfony ≥5](https://img.shields.io/badge/Symfony-%E2%89%A55-0044aa.svg)](https://symfony.com/)
 
-The [Assistenzde\SimpleCryptographicBundle\Service\SimpleCryptographicService](src\Service\SimpleCryptographicService.php) class contains method to encrypt/decrypt phrases with symmetric encryption. With the usage
+The **SimpleCryptographicService** class contains method to encrypt/decrypt phrases with symmetric encryption. With the usage
 of [OpenSSL](https://www.php.net/manual/en/intro.openssl.php) each encoding of the same phrase results in a different encoded string.
 
 Quick example usage:
@@ -117,13 +117,13 @@ final class MyClass
 
 We suggest using the public methods
 
-- [Assistenzde\SimpleCryptographicBundle\Service\SimpleCryptographicService::encrypt](src\Service\SimpleCryptographicService.php) and
-- [Assistenzde\SimpleCryptographicBundle\Service\SimpleCryptographicService::decrypt](src\Service\SimpleCryptographicService.php).
+- **SimpleCryptographicService::encrypt** and
+- **SimpleCryptographicService::decrypt**.
 
 To temporarily use custom settings switch to the static methods
 
-- [Assistenzde\SimpleCryptographicBundle\Service\SimpleCryptographicService::EncryptWithMethod](src\Service\SimpleCryptographicService.php) and/or
-- [Assistenzde\SimpleCryptographicBundle\Service\SimpleCryptographicService::DecryptWithMethod](src\Service\SimpleCryptographicService.php).
+- **SimpleCryptographicService::EncryptWithMethod** and/or
+- **SimpleCryptographicService::DecryptWithMethod**.
 
 ## Credits
 
