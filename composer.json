@@ -1,0 +1,36 @@
+{
+    "name": "assistenzde/simple-cryptographic-bundle",
+    "license": "MIT",
+    "type": "symfony-bundle",
+    "description": "A simple cryptographic service to encode/decode an input string with openssl_encrypt methods like aes128, aes256, blowfish and other cipher methods.",
+    "homepage": "https://github.com/assistenzde/simple-cryptographic-bundle",
+    "keywords": [
+        "cryptograhy"
+    ],
+    "authors": [
+        {
+            "name": "Falko Matthies",
+            "email": "falko.m@web.de"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Assistenzde\\SimpleCryptographicBundle\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Assistenzde\\SimpleCryptographicBundle\\UnitTests\\": "tests/"
+        }
+    },
+    "require": {
+        "ext-openssl": "*",
+        "php": ">=7.4",
+        "symfony/config": "^5.0",
+        "symfony/dependency-injection": "^5.0",
+        "symfony/http-kernel": "^5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    }
+}

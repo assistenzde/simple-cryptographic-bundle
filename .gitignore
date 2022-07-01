@@ -1,0 +1,18 @@
+###> operating systems ###
+/.DS_Store
+###< operating systems ###
+
+###> IDEs ###
+# IDE config files, see https://github.com/github/gitignore/blob/master/Global/JetBrains.gitignore
+/.idea/
+###< IDEs ###
+
+###> composer ###
+/vendor/
+/composer.lock
+###< composer ###
+
+###> phpunit/phpunit ###
+/phpunit.xml
+/.phpunit.result.cache
+###< phpunit/phpunit ###
